@@ -68,7 +68,7 @@ const WishList = () => {
                 {datas && datas.map((item => (
                     <div key={item._id} className="w-full flex flex-col relative">
                         <div className="absolute top-2 right-2" onClick={() => deleteItem(item?._id)}>
-                            <RxCrossCircled className="text-xl cursor-pointer text-gray-500" />
+                            <RxCrossCircled className="text-3xl cursor-pointer text-gray-500" />
                         </div>
                         <Link to={`/${item?.productId?.title}`} className="w-full h-full shadow-md">
                             <div className="w-full h-44 sm:h-48">

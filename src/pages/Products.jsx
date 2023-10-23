@@ -78,7 +78,7 @@ const Products = () => {
                     </form>
                 </div>
             </div>
-            <div className="w-full md:w-5/6 sm:my-2 lg:my-10 relative px-4 pb-6">
+            <div className="w-full md:w-5/6 sm:my-2 lg:my-10 relative px-4 pb-6" style={{ minHeight: "calc(100vh - 86px)" }}>
                 {products.length === 0 && (
                     <div className="sm:absolute w-full h-full flex flex-col justify-center items-center">
                         <h1 className="text-gradient text-3xl font-bold">No Items Found!</h1>

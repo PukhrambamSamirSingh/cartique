@@ -80,7 +80,7 @@ const Add = () => {
                         </div>
                         <div className="flex flex-col gap-2">
                             <label htmlFor="desc">Description</label>
-                            <textarea className="outline-none bg-transparent p-2 border border-gray-700 rounded-md" type="text" name="desc" id="desc" rows="4" placeholder="Enter the product desc" onChange={handleChange} />
+                            <textarea className="outline-none bg-transparent p-2 border border-gray-700 rounded-md" type="text" name="desc" id="desc" rows="4" placeholder="Enter the product description" onChange={handleChange} />
                         </div>
                         <div className="flex flex-col gap-2">
                             <label htmlFor="images">Product Images</label>
@@ -112,7 +112,7 @@ const Add = () => {
                         </div>
                         <div className="flex flex-col gap-2">
                             <label htmlFor="size">Size (For gadgets e.g. 12GB RAM)</label>
-                            <input className="outline-none bg-transparent p-2 border border-gray-700 rounded-md" type="text" name="size" id="size" placeholder="Enter the product colors" onChange={handleChange} />
+                            <input className="outline-none bg-transparent p-2 border border-gray-700 rounded-md" type="text" name="size" id="size" placeholder="Enter the product size" onChange={handleChange} />
                         </div>
                         <div className="flex flex-col gap-2">
                             <label htmlFor="brand">Brand</label>
